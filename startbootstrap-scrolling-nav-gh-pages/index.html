@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Scrolling Nav - Start Bootstrap Template</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">ISTQB</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h1 class="fw-bolder">Welcome to SYLLABUS</h1>
+                <p class="lead">A LEARNING SYLLABUS websites</p>
+                <a class="btn btn-lg btn-light" href="#about">Start !</a>
+            </div>
+        </header>
+        <!-- About section-->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>7 Principes sur les tests</h2>
+                        <p class="lead">Un certain nombre de principes sur les tests ont été suggérés au cours des 50 dernières années et 
+                            offrent des indications communes à tous les tests.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services section-->
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>1. Les tests montrent la présence de défauts, pas leur absence
+                        </h2>
+                            Les tests peuvent prouver la présence de défauts, mais ne peuvent pas en prouver l’absence. Les tests 
+                            réduisent la probabilité que des défauts restent cachés dans le logiciel mais, même si aucun défaut n’est 
+                            découvert, ce n’est pas une preuve que tout est correct.
+
+                        <h2>2. Les tests exhaustifs sont impossibles</h2>    
+                            Tout tester (toutes les combinaisons d’entrées et de préconditions) n’est pas faisable sauf pour des cas 
+                            triviaux. Plutôt que de chercher à faire tests exhaustifs, l’analyse des risques, des techniques de test et 
+                            des priorités devraient être utilisés pour cibler les efforts de tests. 
+                        <h2>3. Tester tôt économise du temps et de l’argent</h2>    
+                            Pour détecter tôt les défauts, à la fois des activités de tests statiques et des activités de tests dynamiques 
+                            doivent être lancées le plus tôt possible dans le cycle de vie de développement du logiciel. Le fait de 
+                            tester tôt est parfois appelé " shift left ". Tester tôt dans le cycle de vie du développement logiciel permet 
+                            de réduire ou d'éliminer des changements coûteux (voir section 3.1).
+                        <h2>4. Regroupement des défauts</h2>   4. Regroupement des défauts
+                            Un petit nombre de modules contient généralement la plupart des défauts découverts lors des tests avant 
+                            livraison, ou est responsable de la plupart des défaillances en exploitation. Des regroupements 
+                            prévisibles de défauts, ou des regroupements réellement observés en test ou en exploitation, constituent 
+                            un élément important de l'analyse des risques utilisée pour cibler l'effort de test (comme mentionné dans 
+                            le principe 2). 
+                        <h2>5. Paradoxe du pesticide</h2>
+                            Si les mêmes tests sont répétés de nombreuses fois, le même ensemble de cas de tests finira par ne 
+                            plus détecter de nouveaux défauts. Pour détecter de nouveaux défauts, il peut être nécessaire de 
+                            modifier les tests existants et les données de test existantes, ainsi que de rédiger de nouveaux tests. 
+                            (Les tests ne sont plus efficaces pour détecter des défauts, tout comme les pesticides ne sont plus 
+                            efficaces pour tuer les insectes après un certain temps). Dans certains cas, comme les tests de 
+                            régression automatisés, le paradoxe du pesticide a un résultat bénéfique, qui est le nombre relativement 
+                            faible de défauts de régression. 
+                        <h2>6. Les tests dépendent du contexte</h2>    
+                            Les tests sont effectués différemment dans des contextes différents. Par exemple, un logiciel de contrôle 
+                            industriel, critique au niveau de la sureté, sera testé différemment d’une application de commerce 
+                            électronique sur téléphone mobile. Comme autre exemple, le test dans un projet Agile est effectué 
+                            différemment du test dans un projet à cycle de vie séquentiel (voir section 2.1).
+                        <h2>7. L’absence d’erreurs est une illusion</h2>    
+                            Certaines organisations s'attendent à ce que les testeurs puissent effectuer tous les tests possibles et 
+                            trouver tous les défauts possibles, mais les principes 2 et 1, respectivement, nous disent que c'est 
+                            impossible. De plus, il est illusoire (c.-à-d. une croyance erronée) de s'attendre à ce que le simple fait de 
+                            trouver et de corriger un grand nombre de défauts garantisse la réussite d’un système. Par exemple, 
+                            tester en profondeur toutes les exigences spécifiées et corriger tous les défauts trouvés pourrait toujours 
+                            produire un système qui est difficile à utiliser, qui ne répond pas aux besoins et aux attentes des 
+                            utilisateurs ou qui est moins performants comparé à d'autres systèmes concurrents.
+                            Voir Myers 2011, Kaner 2002 et Weinberg 2008 pour des exemples de ces principes de test et d'autres 
+                            principes de test   </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Contact us</h2>
+                        <p class="lead">Chef de Projet M Gael</p>
+                        <p class="lead">Product owner  M Seb</p>
+                        <p class="lead">Test Lead M Kamel</p>
+                        <p class="lead">Testeur  Mme Tam</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
