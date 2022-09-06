@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Syllabus 1.3</title>
 </head>
 <body>
-    
+    <h1 class="main_title">Syllabus</h1>
+
+    <div class="main_content">
+        <h2>7 principes sur les tests</h2>
+
+        <p>Un certain nombre de principes sur les tests ont été suggérés au cours des 50 dernières années et
+        offrent des indications communes à tous les tests.</p> 
+
+        <h3>1. Les tests montrent la présence de défauts, pas leur absence</h3>
+        <p>Les tests peuvent prouver la présence de défauts, mais ne peuvent pas en prouver l’absence. Les tests
+        réduisent la probabilité que des défauts restent cachés dans le logiciel mais, même si aucun défaut n’est
+        découvert, ce n’est pas une preuve que tout est correct.</p>
+
+        <h3>2. Les tests exhaustifs sont impossibles</h3>
+        <p>Tout tester (toutes les combinaisons d’entrées et de préconditions) n’est pas faisable sauf pour des cas
+        triviaux. Plutôt que de chercher à faire tests exhaustifs, l’analyse des risques, des techniques de test et
+        des priorités devraient être utilisés pour cibler les efforts de tests.</p>
+
+        <h3>3. Tester tôt économise du temps et de l’argent</h3>
+        <p>Pour détecter tôt les défauts, à la fois des activités de tests statiques et des activités de tests dynamiques
+        doivent être lancées le plus tôt possible dans le cycle de vie de développement du logiciel. Le fait de
+        tester tôt est parfois appelé " shift left ". Tester tôt dans le cycle de vie du développement logiciel permet
+        de réduire ou d'éliminer des changements coûteux (voir section 3.1).</p>
+
+        <h3>4. Regroupement des défauts</h3>
+        <p>Un petit nombre de modules contient généralement la plupart des défauts découverts lors des tests avant
+        livraison, ou est responsable de la plupart des défaillances en exploitation. Des regroupements
+        prévisibles de défauts, ou des regroupements réellement observés en test ou en exploitation, constituent
+        un élément important de l'analyse des risques utilisée pour cibler l'effort de test (comme mentionné dans
+        le principe 2).</p>
+
+        <h3>5. Paradoxe du pesticide</h3>
+        <p>Si les mêmes tests sont répétés de nombreuses fois, le même ensemble de cas de tests finira par ne
+        plus détecter de nouveaux défauts. Pour détecter de nouveaux défauts, il peut être nécessaire de
+        modifier les tests existants et les données de test existantes, ainsi que de rédiger de nouveaux tests.
+        (Les tests ne sont plus efficaces pour détecter des défauts, tout comme les pesticides ne sont plus
+        efficaces pour tuer les insectes après un certain temps). Dans certains cas, comme les tests de
+        régression automatisés, le paradoxe du pesticide a un résultat bénéfique, qui est le nombre relativement
+        faible de défauts de régression.</p>
+
+        <h3>6. Les tests dépendent du contexte</h3>
+        <p>Les tests sont effectués différemment dans des contextes différents. Par exemple, un logiciel de contrôle
+        industriel, critique au niveau de la sureté, sera testé différemment d’une application de commerce
+        électronique sur téléphone mobile. Comme autre exemple, le test dans un projet Agile est effectué
+        différemment du test dans un projet à cycle de vie séquentiel (voir section 2.1).</p>
+
+        <h3>7. L’absence d’erreurs est une illusion</h3>
+        <p>Certaines organisations s'attendent à ce que les testeurs puissent effectuer tous les tests possibles et
+        trouver tous les défauts possibles, mais les principes 2 et 1, respectivement, nous disent que c'est
+        impossible. De plus, il est illusoire (c.-à-d. une croyance erronée) de s'attendre à ce que le simple fait de
+        trouver et de corriger un grand nombre de défauts garantisse la réussite d’un système. Par exemple,
+        tester en profondeur toutes les exigences spécifiées et corriger tous les défauts trouvés pourrait toujours
+        produire un système qui est difficile à utiliser, qui ne répond pas aux besoins et aux attentes des
+        utilisateurs ou qui est moins performants comparé à d'autres systèmes concurrents.</p>
+    </div>
+
+    <p>Voir Myers 2011, Kaner 2002 et Weinberg 2008 pour des exemples de ces principes de test et d'autres
+    principes de test.</p>
 </body>
 </html>

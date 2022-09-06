@@ -1,0 +1,23 @@
+.main_title {
+    color: red;
+    text-align: center;
+}
+
+.main_content {
+    margin-top: 8%;
+    background-color: rgb(241, 234, 234);
+    padding: 5px;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: tomato;
+}
+
+body {
+    font-family: Arial;
+    padding: 5%;
+}
